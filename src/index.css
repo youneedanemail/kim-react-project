@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-height: 100vh;
+    min-width: 320px;
+    margin: 0;
+    display: block;
+    background-color: #020617;
+    color: #f1f5f9;
+    font-family: system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  a {
+    text-decoration: inherit;
+  }
+
+  button {
+    cursor: pointer;
+    font-family: inherit;
+  }
+}
